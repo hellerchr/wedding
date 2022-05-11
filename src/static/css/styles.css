@@ -1,0 +1,136 @@
+/* font styling */
+h1, h2, h3, h4, h5, h6, em, .navbar-brand, .timeline_description {
+    font-family: "Rouge Script";
+    font-style: normal;
+}
+
+.location h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+a, nav {
+    font-style: normal;
+}
+
+body {
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+/* rsvp dialog */
+.modal-dialog {
+    max-width: 600px;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.required > label:after {
+    content: "*";
+    color: red;
+}
+
+.lead {
+    font-style: italic;
+}
+
+/* header image */
+.header-image {
+    background-image: url("/static/img/background.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* section header */
+.section_header {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+/* section divider graphic */
+.trenner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    max-width: 80% !important;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+/* q&a accordion */
+.accordion .btn {
+    width: 100%;
+    text-align: left;
+}
+
+/* navigation menu */
+.nav-item {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.nav li {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+/* timeline */
+.timeline {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.timeline_description {
+    font-size: 1.7em;
+}
+
+.timeline:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 0;
+    border-left: 2px solid black;
+    height: 75%;
+    z-index: -1;
+    transform: translateX(-33px);
+}
+
+.timeline_time {
+    text-align: right;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.timeline_image {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    width: 90px !important;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+/* code */
+#code {
+    font-family: "arial";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
